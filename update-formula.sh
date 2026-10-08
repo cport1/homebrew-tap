@@ -15,7 +15,6 @@ cat > Formula/weather-outlook.rb <<RUBY
 class WeatherOutlook < Formula
   desc "Terminal weather dashboard: radar, hurricanes, wildfires, quakes and alerts"
   homepage "https://github.com/$REPO"
-  version "$version"
   license "MIT"
 
   on_macos do

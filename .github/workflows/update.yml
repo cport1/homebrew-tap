@@ -17,5 +17,5 @@ jobs:
           if git diff --quiet; then echo "Formula is current"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "weather-outlook $(sed -n 's/^  version "\(.*\)"/\1/p' Formula/weather-outlook.rb)"
+          git commit -am "weather-outlook $(sed -n 's|.*/download/v\([^/]*\)/.*|\1|p' Formula/weather-outlook.rb | head -n1)"
           git push

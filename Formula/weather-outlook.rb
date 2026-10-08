@@ -2,7 +2,6 @@
 class WeatherOutlook < Formula
   desc "Terminal weather dashboard: radar, hurricanes, wildfires, quakes and alerts"
   homepage "https://github.com/cport1/weather-outlook"
-  version "2.0.0"
   license "MIT"
 
   on_macos do
