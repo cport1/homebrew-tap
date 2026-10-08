@@ -6,23 +6,23 @@ class WeatherOutlook < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cport1/weather-outlook/releases/download/v2.0.0/weather-outlook-2.0.0-darwin-arm64"
-      sha256 "c697d73b5c6185e9434d6709faba002831f7272004f79090fcaf39929bb62afc"
+      url "https://github.com/cport1/weather-outlook/releases/download/v2.1.0/weather-outlook-2.1.0-darwin-arm64"
+      sha256 "ad17c15e62856e2ac0d9aeadebb8e8dc55a9208aae97a867f257087ea210a3d1"
     end
     on_intel do
-      url "https://github.com/cport1/weather-outlook/releases/download/v2.0.0/weather-outlook-2.0.0-darwin-x64"
-      sha256 "22ea9537c6917d9e724259efebb2fa4e41b817a97da7180bec776d42c73653a6"
+      url "https://github.com/cport1/weather-outlook/releases/download/v2.1.0/weather-outlook-2.1.0-darwin-x64"
+      sha256 "d20df84fa5195df97ec7dcd70e698ae5b2be2e1d35e0b1c594fbd8162a066695"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cport1/weather-outlook/releases/download/v2.0.0/weather-outlook-2.0.0-linux-arm64"
-      sha256 "8f7e2d1edaa29d0afbb6b24114715b92dda429897233b0c13832a78ccc0c6fbe"
+      url "https://github.com/cport1/weather-outlook/releases/download/v2.1.0/weather-outlook-2.1.0-linux-arm64"
+      sha256 "9339b071b453bd9e31fee87d17472229b8493ab0158de0c26e3d869d8151ab81"
     end
     on_intel do
-      url "https://github.com/cport1/weather-outlook/releases/download/v2.0.0/weather-outlook-2.0.0-linux-x64"
-      sha256 "3db49b5e8fdd6f56494b2b7f7fca6e932d65095bd578790bafbd34e0a478d023"
+      url "https://github.com/cport1/weather-outlook/releases/download/v2.1.0/weather-outlook-2.1.0-linux-x64"
+      sha256 "28b8991c6195f5f5a321d32b0dbcdfb049a6c84d8c9ec1077199199a68672eb5"
     end
   end
 
